@@ -14,7 +14,8 @@
         "start": "node chatbot.js"
     },
     "dependencies": {
-        "tmi.js": ">=1.8.5"
+        "tmi.js": ">=1.8.5",
+        "dotenv": ">=16.0.1"
     }
 }
   
