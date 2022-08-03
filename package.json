@@ -1,0 +1,20 @@
+{
+    "name": "bot",
+    "version": "0.1",
+    "description": "bot based on tmi",
+    "keywords": [
+        "bot"
+    ],
+    "main": "chatbot.js",
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "author": "Caburn",
+    "scripts": {
+        "start": "node chatbot.js"
+    },
+    "dependencies": {
+        "tmi.js": ">=1.8.5"
+    }
+}
+  
