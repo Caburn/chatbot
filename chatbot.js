@@ -30,7 +30,7 @@ function onMessageHandler (channel, tags, message, self) {
 
     // !commands tells the user what bot commands are available
     if(ifsList(command, ['commands'])) {
-        client.say(channel, `/me @${tags['display-name']}, available commands are: !so !treasure !ctof !ftoc !8ball}`);
+        client.say(channel, `/me @${tags['display-name']}, available commands are: !so !treasure !ctof !ftoc !8ball`);
     }
 
     // !so shoutout command to link viewers to another channel#
